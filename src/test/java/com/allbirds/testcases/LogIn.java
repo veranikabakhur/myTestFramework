@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class LogIn extends BaseClass {
 
-
+//small changes
 
     @Test
     public void loginApp() throws IOException {

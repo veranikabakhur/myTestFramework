@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/veronichka/IdeaProjects/myTestFramework"><classes><class name="com.allbirds.testcases.CreateAccount"><methods><include name="createAccount"/></methods></class><class name="com.allbirds.testcases.LogIn"><methods><include name="loginApp"/></methods></class></classes></test></suite>
