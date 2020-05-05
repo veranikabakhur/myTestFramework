@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.allbirds.testcases.LogIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-03T21:40:12" hostname="Veranikas-MacBook-Pro.local" time="1.586">
+  <properties/>
+  <testcase name="loginApp" classname="com.allbirds.testcases.LogIn" time="1.586"/>
+  <system-out><![CDATA[Trying to start browser
+Browser is up, App is running
+Test is about to end
+Test completed
+]]></system-out>
+  <system-err><![CDATA[1588542008752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xv/v3hgr8f11t399xct79h2_hph0000gn/T/rust_mozprofileU2osO7"
+1588542009146	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588542009470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588542009470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588542009470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588542009470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588542010924	Marionette	INFO	Listening on port 54884
+1588542011012	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 03, 2020 2:40:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
